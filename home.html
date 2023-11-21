@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Panther Cricket Club Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color:lightblue;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color:seagreen;
+            padding: 0.5em;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 1em;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        button {
+            padding: 0.5em 1em;
+            font-size: 1em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1> Panther Cricket Club</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Teams</a>
+        <a href="#">Schedule</a>
+        <a href="#">Contact</a>
+    </nav>
+   <center><img src="C:\Users\ASUS\Downloads\ris.jpg" height="30%" width="40%">
+   </center> 
+    <section>
+        <h2>Welcome to Our Cricket Club</h2>
+        <p>
+            JOIN us for better experiences and improvement.
+            we have qualified and best coaches.
+        </p>
+        <button onclick="displayMessage()">Click me!</button>
+        <p id="demo"></p>
+    </section>
+
+    <script>
+        function displayMessage() {
+            document.getElementById("demo").innerHTML = "Hello! Welcome to our cricket club website!";
+        }
+    </script>
+
+</body>
+</html>
